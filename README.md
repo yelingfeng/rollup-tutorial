@@ -48,7 +48,8 @@ function cube ( x ) {
 }
 console.log( cube( 5 ) ); 
 
-``
+```
+
 可以看到 它只打包了你引用的cube函数 
 
 
