@@ -28,7 +28,9 @@ export function square ( x ) {
 export function cube ( x ) {
 	return x * x * x;
 }
+```
 
+```javascript
 // 
 import { cube } from './maths.js';
 console.log( cube( 5 ) ); 
