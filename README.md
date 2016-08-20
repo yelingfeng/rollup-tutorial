@@ -18,7 +18,7 @@ rollup 入门到放弃
    
   tree-shaking 是什么? 这东西就是一个按需打包 只打包你需要的  [看例子](http://rollupjs.org)
   
-``javascript``
+```javascript
 
 math.js
 
@@ -33,11 +33,11 @@ export function cube ( x ) {
 import { cube } from './maths.js';
 console.log( cube( 5 ) ); 
 
-``
+```
 
 用rollup打包commonjs后
 
-``javascript``
+```javascript
 
 'use strict';
 
