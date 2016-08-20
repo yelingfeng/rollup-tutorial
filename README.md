@@ -51,8 +51,11 @@ console.log( cube( 5 ) );
 ``
 可以看到 它只打包了你引用的cube函数 
 
+
 ## rollup 
-//TODO
+
+TODOS 先撸一阵代码 在写
+
 
 
 
