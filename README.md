@@ -9,7 +9,9 @@ rollup 入门到放弃
 
 ## rollup 是什么东西?
 
-“A next-generation ES6 module bundler” 下一代es6模块化<code>bundler</code>, <code>bundler</code>用过<code>webpack</code>的都知道 一般编译后都文件都是叫bundler.js,所以不难理解 这东西就是转换工具 把你的es6代码编译成各种版本的js（amd,cmj,umd）那么引出了下个问题
+> A next-generation ES6 module bundler 下一代es6模块化bundler
+
+<code>bundler</code>用过<code>webpack</code>的都知道 一般编译后都文件都是叫bundler.js,所以不难理解 这东西就是转换工具 把你的es6代码编译成各种版本的js（amd,cmj,umd）那么引出了下个问题
 用它干嘛？ 它有啥牛逼的 ？那么我告诉你 它没啥牛逼的哈， 那为啥还要用它呢 其实我也不知道 我只是简单的想装个逼。
 
 ## rollup 特性
