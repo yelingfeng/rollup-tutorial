@@ -17,27 +17,28 @@ rollup 入门到放弃
 ### Tree-shaking
    
   tree-shaking 是什么? 这东西就是一个按需打包 只打包你需要的  [看例子](http://rollupjs.org)
+  
 ``javascript``
+
 math.js
-    
 
 export function square ( x ) {
 	return x * x;
 }
-
-
 export function cube ( x ) {
 	return x * x * x;
 }
 
-
+// 
 import { cube } from './maths.js';
 console.log( cube( 5 ) ); 
 
 ``
 
 用rollup打包commonjs后
+
 ``javascript``
+
 'use strict';
 
 function cube ( x ) {
